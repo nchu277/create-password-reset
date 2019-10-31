@@ -71,6 +71,9 @@ class Signup extends React.Component {
             <Message>
               Already have an account? Login <Link to="/signin">here</Link>
             </Message>
+            <Message>
+              Forgot you password? <Link to="/reset">here</Link>
+            </Message>
             {this.state.error === '' ? (
               ''
             ) : (
